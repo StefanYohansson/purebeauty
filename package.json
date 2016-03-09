@@ -15,5 +15,9 @@
   "dependencies": {
     "normalize.css": "^3.0.3",
     "purecss": "^0.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
   }
 }
