@@ -11,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/StefanYohansson/purebeauty/issues"
   },
-  "homepage": "https://github.com/StefanYohansson/purebeauty#readme"
+  "homepage": "https://github.com/StefanYohansson/purebeauty#readme",
+  "dependencies": {
+    "normalize.css": "^3.0.3",
+    "purecss": "^0.6.0"
+  }
 }
