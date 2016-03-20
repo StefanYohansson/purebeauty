@@ -10,6 +10,9 @@ gulp.task('libs', function() {
 
    gulp.src('./node_modules/jquery/dist/jquery.min.js')
    .pipe(gulp.dest('./lib'));
+
+   gulp.src('./node_modules/purecss/build/grids-responsive-min.css')
+   .pipe(gulp.dest('./lib'));
 });
 
 gulp.task('sass', function () {

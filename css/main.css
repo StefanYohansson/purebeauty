@@ -102,7 +102,8 @@ a:visited {
 
 /* Site footer */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 6px solid #FFA7A2;
+  background-color: #C24A43;
   padding: 30px 0;
   text-align: center; }
 
@@ -137,7 +138,10 @@ a:visited {
 .site-footer p {
   font-size: 15px;
   letter-spacing: -.3px;
-  color: #828282; }
+  color: #FFF; }
+
+.site-footer a {
+  color: #FFA7A2; }
 
 .github-icon-svg,
 .twitter-icon-svg {
@@ -151,22 +155,44 @@ a:visited {
 /* ----------------------------------------------------------*/
 .page-content {
   padding: 30px 0;
-  background-color: #fff; }
+  background-color: #fff;
+  background-color: #e9d4b9;
+  background-image: repeating-linear-gradient(45deg, transparent 5px, rgba(11, 36, 45, 0.5) 5px, rgba(11, 36, 45, 0.5) 10px, rgba(211, 119, 111, 0) 10px, rgba(211, 119, 111, 0) 35px, rgba(211, 119, 111, 0.5) 35px, rgba(211, 119, 111, 0.5) 40px, rgba(11, 36, 45, 0.5) 40px, rgba(11, 36, 45, 0.5) 50px, rgba(11, 36, 45, 0) 50px, rgba(11, 36, 45, 0) 60px, rgba(211, 119, 111, 0.5) 60px, rgba(211, 119, 111, 0.5) 70px, rgba(247, 179, 85, 0.5) 70px, rgba(247, 179, 85, 0.5) 80px, rgba(247, 179, 85, 0) 80px, rgba(247, 179, 85, 0) 90px, rgba(211, 119, 111, 0.5) 90px, rgba(211, 119, 111, 0.5) 110px, rgba(211, 119, 111, 0) 110px, rgba(211, 119, 111, 0) 120px, rgba(11, 36, 45, 0.5) 120px, rgba(11, 36, 45, 0.5) 140px), repeating-linear-gradient(135deg, transparent 5px, rgba(11, 36, 45, 0.5) 5px, rgba(11, 36, 45, 0.5) 10px, rgba(211, 119, 111, 0) 10px, rgba(211, 119, 111, 0) 35px, rgba(211, 119, 111, 0.5) 35px, rgba(211, 119, 111, 0.5) 40px, rgba(11, 36, 45, 0.5) 40px, rgba(11, 36, 45, 0.5) 50px, rgba(11, 36, 45, 0) 50px, rgba(11, 36, 45, 0) 60px, rgba(211, 119, 111, 0.5) 60px, rgba(211, 119, 111, 0.5) 70px, rgba(247, 179, 85, 0.5) 70px, rgba(247, 179, 85, 0.5) 80px, rgba(247, 179, 85, 0) 80px, rgba(247, 179, 85, 0) 90px, rgba(211, 119, 111, 0.5) 90px, rgba(211, 119, 111, 0.5) 110px, rgba(211, 119, 111, 0) 110px, rgba(211, 119, 111, 0) 140px, rgba(11, 36, 45, 0.5) 140px, rgba(11, 36, 45, 0.5) 160px); }
 
 /* Home styles */
 /* ----------------------------------------------------------*/
+.github-presentation {
+  text-align: center; }
+
 .github-name {
-  font-size: 5em;
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
   font-weight: 300; }
   .github-name span {
     font-weight: 600;
     color: #C24A43; }
 
 .github-avatar {
+  width: 200px;
   border-radius: 5px; }
 
+.home, .post {
+  border-radius: 4px;
+  box-shadow: 0px 4px 0px #E2E2E2;
+  background-color: #FFF;
+  padding: 50px 30px; }
+
+.post {
+  padding: 10px 30px; }
+
 .home h1 {
+  font-size: 42px;
   margin-bottom: 25px; }
+
+.home-p, .post-header h1 {
+  color: #C24A43;
+  border-bottom: 1px dashed #FFA7A2; }
 
 .posts {
   list-style-type: none; }
@@ -192,7 +218,7 @@ a:visited {
 .post-header h1 {
   font-size: 42px;
   letter-spacing: -1.75px;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 300; }
 
 .post-header .meta {
