@@ -9,6 +9,9 @@ layout: default
   <h1 class="home-p">Posts</h1>
 
   <ul class="posts">
+    {% if !site.posts %}
+      <h2>No posts yet. <i class="em em-disappointed"></i></h2>
+    {% endif %}
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
