@@ -105,7 +105,11 @@ a:visited {
   border-top: 6px solid #FFA7A2;
   background-color: #C24A43;
   padding: 30px 0;
-  text-align: center; }
+  text-align: center;
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 .footer-heading {
   font-size: 18px;
@@ -154,6 +158,8 @@ a:visited {
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 .page-content {
+  min-height: calc(100% - 150px);
+  position: relative;
   padding: 30px 0;
   background-color: #fff;
   background-color: #e9d4b9;
@@ -188,6 +194,10 @@ a:visited {
 
 .home h1 {
   font-size: 42px;
+  margin-bottom: 25px; }
+
+.home h2 {
+  font-size: 32px;
   margin-bottom: 25px; }
 
 .home-p, .post-header h1 {
