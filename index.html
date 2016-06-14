@@ -9,7 +9,7 @@ layout: default
   <h1 class="home-p">Posts</h1>
 
   <ul class="posts">
-    {% if !site.posts %}
+    {% if site.posts.size == 0 %}
       <h2>No posts yet. <i class="em em-disappointed"></i></h2>
     {% endif %}
     {% for post in site.posts %}
