@@ -42,7 +42,7 @@ gulp.task('minify', function () {
 
 gulp.task('compress', function (cb) {
   pump([
-    gulp.src('lib/main.js'),
+    gulp.src(['lib/fetch.js', 'lib/main.js']),
     uglify({ mangle: true, compress: true }),
     gulp.dest('./lib/dist')
   ],
