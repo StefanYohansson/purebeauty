@@ -11,6 +11,13 @@ gulp.task('libs', function() {
    gulp.src('./node_modules/purecss/build/pure-min.css')
    .pipe(gulp.dest('./lib'));
 
+   gulp.src('./node_modules/whatwg-fetch/jquery.min.js')
+   .pipe(gulp.dest('./lib'));
+
+   gulp.src('./node_modules/whatwg-fetch/color-thief.min.js')
+   .pipe(gulp.dest('./lib'));
+
+
    gulp.src('./node_modules/whatwg-fetch/fetch.js')
    .pipe(gulp.dest('./lib'));
 
